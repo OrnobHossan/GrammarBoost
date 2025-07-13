@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="shortcut icon" href="black.png" type="image/x-icon">   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">   
+   <title>GrammarBoost</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<header>     
+<div><img src="fav.png" alt=""><h1>GrammarBoost</h1></div>
+</header>
+
+  
+<section id='quizSection'>
+   
+  <div id='selectorArea'>
+  <h1>Welcome Learners,</br>to GrammarBoost Webpage</h1></br>
+  <p> We're excited to have you here! This platform is designed to help every learner build confidence in
+     English grammar through regular learning, practice, and support. </p></br>
+  <p style="margin:0 0 4rem;">Choose a topic(or more), set your preferences, and click <strong>Start</strong> to begin your journey!</p>
+
+
+<h1 class="name">Customize Your Questions:</h1>
+
+
+ 
+  
+    <h4>Choice Topic:</h4>
+<div class="this"><label>1.Parts of Speech</label><input type='checkbox' name='topic' value='one'></div>
+<div class="this"><label>2.Articles</label><input type='checkbox' name='topic' value='two'></div>
+<div class="this"><label>3.Tense</label><input type='checkbox' name='topic' value='three'></div>
+<div class="this"><label>4.Subject-Verb Agreement</label><input type='checkbox'name='topic'value='four'></div>
+<div class="this"><label>5.Voice Change</label><input type='checkbox' name='topic' value='five'></div>
+<div class="this"><label>6.Narration</label><input type='checkbox' name='topic' value='six'></div>
+<div class="this"><label>7.Right Form of Verbs</label><input type='checkbox' name='topic' value='seven'></div>
+<div class="this"><label>8.Prepositions</label><input type='checkbox' name='topic' value='eight'></div>
+<div class="this"><label>9.Modifiers</label><input type='checkbox' name='topic' value='nine'></div>
+<div class="this"><label>10.Error Identification</label><input type='checkbox' name='topic' value='ten'></div>
+<div class="this"><label>11.Sentence Correction</label><input type='checkbox' name='topic' value='ten1'></div>
+<!-- complete -->
+
+<div class="this"><label>12.Conditional Sentences</label><input type='checkbox' name='topic'value='ten2'></div>
+<div class="this"><label>13.Clauses</label><input type='checkbox' name='topic' value='ten3'></div>
+<div class="this"><label>14.Correct Spelling</label><input type='checkbox' name='topic' value='ten4'></div>
+<div class="this"><label>15.Transformation</label><input type='checkbox' name='topic' value='ten5'></div>
+<div class="this"><label>16.Determiners</label><input type='checkbox' name='topic' value='ten6'></div>
+
+
+<div class="this"><label>17.Connectors</label><input type='checkbox' name='topic' value='ten7'></div>
+<div class="this"><label>18.Tag Questions</label><input type='checkbox' name='topic' value='ten8'></div>
+<div class="this"><label>19.Confusing Words</label><input type='checkbox' name='topic' value='ten9'></div>
+<div class="this"><label>20.Word Formation</label><input type='checkbox' name='topic' value='ten10'></div>
+
+
+
+<div class="this"><label>21.Phrases and Idioms</label><input type='checkbox' name='topic' value='two1'></div>
+<div class="this"><label>22.Figures of Speech</label><input type='checkbox' name='topic' value='two2'></div>
+<div class="this"><label>23.Translation</label><input type='checkbox' name='topic' value='two3'></div>
+<div class="this"><label>24.Vocabulary</label><input type='checkbox' name='topic' value='two4'></div>
+
+
+
+<div class="this"><label>25.Capitalization and Punctuation</label><input type='checkbox' name='topic' value='two5'></div>
+
+
+
+    
+    <h4 style="margin-top:2rem;">Choice Question Number:</h4>
+    <div>
+      <p><input type='radio' name='qnum' value='5'> 5</p>
+      <p><input type='radio' name='qnum' value='10'> 10</p>
+      <p><input type='radio' name='qnum' value='15'> 15</p>
+      <p><input type='radio' name='qnum' value='20'> 20</p>
+    </div>
+    <h4>Enable Timer?<small><small>(15s for per question)</small></small></h4>
+    <div><label>Use Timer</label><input type='checkbox' id='enableTimer'></div>
+    <button onclick='startQuiz()' style="display: block;">Start</button>
+  </div>
+  
+  <div id='timerDisplay'></div>
+  <h1 class="heading">Practice Grammar</h1>
+  <form id='quizForm'><p style="text-align: center;font-weight: normal; padding:4rem 0 0;">You haven't started a practice yet</p></form>
+  <div id='scoreResult'></div>
+  <div class="overlay"></div>
+</section>
+  
+  
+<div class="overlay"></div>    
+<footer>  
+  <p><i class="far fa-copyright"></i> 2025 GrammarBoost. All rights reserved.</p>
+  <p>Contact us: <a href="mailto:123sabbir246hossan@gmail.com">support@grammarboost.com</a></p>
+</footer><script type='module' src='custom.js'></script>
+</body>
+</html>
